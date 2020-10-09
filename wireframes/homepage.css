@@ -1,0 +1,78 @@
+main {
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #363b40;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background-image: url('star-wars-bg.png');
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: black;
+    background-image: linear-gradient(to right, red, yellow, blue);
+    /* margin: auto; */
+    font-family: 'star_jediregular', Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin: auto;
+    padding: 5% 5% 0 5%;
+  }
+  
+  button {
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 9px 36px;
+    text-decoration: none;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    font-family: 'star_jediregular', Arial, sans-serif;
+  }
+
+  label {
+    margin: 0;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  img {
+    /* max-width: 100%;
+    max-height: 100%; */
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 450px;
+    height: 600px;
+  }
+
+  section {
+    box-sizing: content-box;
+    width: 600px;
+    border: solid yellow 3px;
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .character-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
